@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/index.css"/>
+	<link rel="stylesheet" href="css/register.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+</head>
+<body>
+	<header id="top">
+		<div class="top">
+			<a href="index.html">
+				<img src="images/logo.png" alt="" />
+			</a>
+			<span>欢迎注册</span>
+		</div>
+	</header>
+	<section id="container">
+		<div id="panel">
+			<!-- <form id="form-register"> -->
+				<div class="txt1">
+					<p>新用户注册</p>
+					<a href="login.html"><span>直接登录</span></a>
+					
+				</div>
+				<table id="register">
+					<tr>
+						<td class="col1">用户名：</td>
+						<td class="col2">
+							<input type="text" name="uname" id="uname" autofocus placeholder="请输入用户名" />
+							<span id="uname-check">yong</span>
+							<!-- <input type="text" name="uname" id="uname" placeholder="请输入用户名" onblur="checkuname()"/> -->
+						</td>
+						<td class="col3"><span >yong</span></td>
+					</tr>
+					<tr>
+						<td class="col1">登录密码：</td>
+						<td class="col2">
+							<input type="password" id="upwd"placeholder="请输入密码"/>
+							<span id="pwd-check">mi</span>
+						</td>
+						<td class="col3"><span >mi</span></td>
+					</tr>
+					<tr>
+						<td class="col1">确认密码：</td>
+						<td class="col2">
+							<input type="password" id="udpwd" placeholder="请确认密码"/>
+							<span id="pwd-assure">ma</span>
+						</td>
+						<td class="col3"><span >ma</span></td>
+					</tr>
+					<tr>
+						<td class="col1">邮箱：</td>
+						<td class="col2">
+							<input type="text"  placeholder="请输入邮箱地址"/>
+							<span id="email-check">you</span>
+						</td>
+						<td class="col3"><span >you</span></td>
+					</tr>
+					<tr>
+						<td class="col1">手机号：</td>
+						<td class="col2">
+							<input type="text" placeholder="请输入您的手机号"/>
+							<span id="phone-check">shou</span>
+						</td>
+						<td class="col3"><span >shou</span></td>
+					</tr>
+					<tr>
+						<td class="col1"></td>
+						<td >
+							<a href="#"><button class="btn_register" onclick="submit()">提交注册信息</button></a>
+						</td>
+						<td class="col3"></td>
+					</tr>
+				</table>
+
+			<!-- </form> -->
+		</div>
+	</section>
+
+	<footer>
+		<iframe src="footer.html" width="100%" height="650px">
+		</iframe>
+	</footer>
+	<script src="./js/register.js"></script>
+</body>
+</html>

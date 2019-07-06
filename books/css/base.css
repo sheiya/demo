@@ -1,0 +1,54 @@
+/*设置页面通用样式*/
+
+body{
+	font:12px 'Roboto', sans-serif;
+	color:#646a7c;
+	margin:0;
+	padding:0;
+	background:#fff;
+}
+
+/*以下元素有默认的内边距，外边距*/
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,pre{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+a{
+	color:#333;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+img{
+	vertical-align:bottom;
+}
+
+iframe{
+	 width:"100%";
+	 height:"650px";
+	 border:none;
+}
+
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.fixed_nav{
+    background: #F5F5F5;
+    position:fixed;
+    z-index: 6;
+    top:0;
+    left:0;
+    right: 0;
+    width: 1000px;
+    height:60px;
+    background: #F5F5F5;
+    transition: all 0.1s;
+    padding: 5px;
+    margin:0 auto;
+
+}

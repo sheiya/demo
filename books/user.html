@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/base.css" />	
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/user.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+</head>
+<body>
+	<header id="header" style="align:center">
+		<img src="images/loading.gif" alt="加载中..." >
+	</header>
+	<section id="section">
+		<div id="location-title">
+			首页 &gt; 商品详情
+		</div>
+		<div id="main-area">
+			<div class="accordion">
+				<ul>
+					<li class="title"><i class="fa fa-align-justify"></i>订单管理</li>
+					<ul class="content">
+						<li class="fade">全部订单</li>
+						<li class="fade">代付款</li>
+						<li class="fade">待收货</li>
+						<li class="fade">待评价</li>
+						<li class="fade">退货退款</li>
+					</ul>
+					<li class="title"><i class="fa fa-home"></i>收货地址</li>
+					<ul class="content">
+						<li class="fade">地址管理</li>
+					</ul>
+					<li class="title"><i class="fa fa-paw"></i>我的优惠券</li>
+					<li class="title"><i class="fa fa-user"></i>个人信息</li>
+					<ul class="content active">
+						<li class="fade in"><a href="#">个人头像</a></li>
+						<li class="fade in"><a href="#">我的信息</a></li>
+						<li class="fade in"><a href="#">安全管理</a></li>
+					</ul>
+				</ul>
+			</div>
+			<div id="accordion-content">
+				<form action="">
+					<table>
+						<tbody class="avatar-area">
+							<tr>
+								<td class="topic">我的头像</td>
+								<td><img src="images/avatar/default.jpg" alt="" /></td>
+							</tr>
+						</tbody>
+						
+						<tbody class="user-area">
+							<tr >
+								<td class="topic">用户名</td>
+								<td><input type="text" /></td>
+							</tr>
+							<tr>
+								<td class="topic">性别</td>
+								<td>
+									<input type="radio" name="sex" value="male">男
+									<input type="radio" name="sex" value="female">女
+								</td>
+							</tr>
+							<tr>
+								<td class="topic">绑定手机</td>
+								<td>
+									<input type="text" />
+								</td>
+							</tr>
+							<tr>
+								<td class="topic">绑定邮箱</td>
+								<td>
+									<input type="text" />
+								</td>
+							</tr>
+						</tbody>
+						<tbody class="security">
+							<tr>
+								<td><input type="checkbox" />匿名购买</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox" />外部设备登录验证手机号</td>
+							</tr>
+							<tr>
+								<td><input type="checkbox" />保密服务</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td></td>
+								<td><input type="submit" value="保存修改" id="submit"/></td>
+							</tr>
+						</tfoot>	
+					</table>
+				</form>
+			</div>
+		</div>
+			
+		
+	</section>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/header.js"></script>
+<script type="text/javascript">
+	$(".accordion").on("click",".title",function(e){
+		e.preventDefault();
+		$li = $(this).siblings(".content").children()
+		$(this).next(".content").addClass("active")
+			 .siblings(".content.active").removeClass("active")
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+#section{
+	width:1170px;
+	height:1000px;
+	margin:20px auto;
+}
+#location-title{
+	width:1170px;
+	height:30px;
+	margin:10px auto;
+	padding:10px;
+	font-size:16px;
+}
+.accordion{
+	float:left;
+	width:270px;
+	padding:10px;
+	padding-left:0;
+	margin-top:10px;
+	height:200px;
+}
+
+.accordion .title{
+	font-size:16px;
+	color:#3a3a3a;
+	background:linear-gradient(to bottom,#FAF0E6,#FCF7F2);
+	background:-moz-linear-gradient(to bottom,#FAF0E6,#FCF7F2);
+	background:-webkit-linear-gradient(to bottom,#FAF0E6,#FCF7F2);
+	background:-o-linear-gradient(to bottom,#FAF0E6,#FCF7F2);
+	background:-ms-linear-gradient(to bottom,#FAF0E6,#FCF7F2);
+	
+	width:270px;
+	height:40px;
+	line-height:40px;
+	display:block;
+	cursor:pointer;
+}
+
+.title i{
+	color:#B11E22;
+	padding:0 20px;
+}
+
+.content{
+	display:none;
+	transition:all .5s linear;
+	margin:10px 0;
+}
+
+.content li{
+	display:block;
+	line-height:45px;
+	text-indent:40px;
+	height:40px;
+	font-size:15px;
+}
+
+.content.active{
+	display:block;
+}
+
+#accordion-content{
+	margin-top:20px;
+	margin-left:40px;
+	border:1px solid #ddd;
+	float:left;
+	width:800px;
+	height:auto;
+}
+
+table{
+	padding:60px;
+	font-size:16px;
+}
+
+table td{
+	width:300px;
+	height:70px;
+}
+
+
+#submit{
+	border:none;
+	width:70px;
+	height:30px;
+	background:#B11E22;
+	color:#fff;
+}

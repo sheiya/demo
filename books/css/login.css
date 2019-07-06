@@ -1,0 +1,135 @@
+		#top{
+			height:40px;
+			width:1000px;
+			margin:20px auto 40px;
+		}
+		#top .top{
+			padding-bottom:40px;
+		}
+		.top img{
+			height:65px;
+		}
+		.top > span{
+			position:absolute;
+			margin-top:20px;
+			padding-left:250px;
+			font-size:24px;
+			color:#4f4d4e
+		}
+		.top >a {
+			display: block;
+			position:absolute;
+			margin-left:100px;
+			top:40px;
+			font-size:24px;
+			color:#ff6700;
+		}
+
+		#container{
+			width:100%;
+			height:500px;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+			box-sizing:border-box;
+			background-image:url("../images/login.jpg");
+			background-size:100% 100%;
+			/*opacity:0.5;*/
+			position:relative;
+		}
+		#container>#cover{
+			position:absolute;
+			right:15%;
+			margin-top:100px;
+			margin-right:20px;
+			width:300px;
+			height:265px;			
+			background-color: rgba(115,180,147,0.6);
+			color:white;
+		}
+		.text{
+			width:265px;
+			height:215px;
+			float:left;
+			padding:20px 0;	
+			margin-left:15px;
+            color: grey;
+		}
+		.text>p{
+			padding:10px 0;
+			border-bottom:1px solid white;
+			font-size:18px;
+		}
+
+		.register{
+			font-size:14px;
+			float:right;
+			color: grey;
+		}
+		.text1{
+		    width:270px;
+			height:75px;
+			position:relative;
+			
+			/*background:white;*/
+		}
+		.text1>input{
+			height:20px;
+			padding:10px;
+			padding-right:50px;
+			width:210px;
+			margin-top:20px;
+			border:0;
+			outline:0;
+		}
+		.text1>span{
+			position:absolute;
+			right:10px;
+			top:5px;
+			}
+
+		.choose{
+			font-size:16px;
+			width:270px;
+			height:50px
+			float:left;
+		}
+
+		.link{
+			text-decoration:none;
+			color:#4f4d4e;
+			font-size:18px;
+			text-align:right;
+		}
+
+		table{
+			border:none;
+			width:360px;
+			height:40px;
+		}
+
+		/* 输入框的提示 */
+		.unp{
+			font-size: 16px;
+			color: rgb(235, 12, 19);
+		}
+		.uclose{
+			display: none;
+		}
+		#btn{
+			width:300px;
+			height:280px;
+			
+		}
+
+		.btn{
+			width:300px;
+			height:40px;
+			border-radius:3px;
+			border:none;
+			background:#fff;
+			color:#B11E22;
+			padding:0;
+			font-weight:bold;
+			cursor:pointer;
+		}

@@ -1,0 +1,331 @@
+/*顶部导航*/
+#top-area{
+	background:#F4F4F4;
+	margin:0px;
+	padding:0px;
+}
+
+#top-area #container{
+	width:1170px;
+	margin:0 auto;
+	background:#f4f4f4;
+}
+
+#container .user-area{
+	width:700px;
+	height:20px;
+	float:left;
+}
+
+.user-area li{
+	float:left;
+	width:80px;
+	text-align:center;
+	height:15px;
+	line-height:20px;
+	padding:10px;
+	font-size:14px;
+	color:#333;
+}
+
+.user-area i{
+	color:#888;
+}
+
+#container .area-information{
+	float:right;
+	width:80px;
+	text-align:center;
+	height:15px;
+	line-height:20px;
+	padding:10px;
+	margin-right:50px;
+	font-size:12px;
+	color:#333;
+	position:relative;
+}
+#container .area-information:hover{
+	background:#fff;
+}
+.dropdown-menu-small{
+	width:400px;
+	height:0; opacity:0; overflow:hidden;
+	background:#fff;
+	list-style:none; 
+	border:1px solid #ddd;
+	border-top:0;
+	margin-top:5px; 
+	position:absolute;
+	left:-100px;
+	top:30px;
+	z-index:2;
+	transition:all .5s linear;
+}
+
+.dropdown-menu-small li{
+	display:block;
+	width:40px;
+	padding:10px;
+	float:left;
+	height:20px;
+}
+/*logo&搜索框&购物车*/
+#site-brand-area{
+	width:1170px;
+	height:100px;
+	margin:30px auto 10px;
+}
+
+#site-brand-area>.logo{
+	float:left;
+}
+
+#site-brand-area>#input-box{
+	margin-left:120px;
+	margin-top:25px;
+	float:left;
+	width:50%;
+	height:45px;
+	border:1px solid #DDDDDD;
+	border-radius:5px;
+} 
+
+#input-box .type-btn{
+	width:150px;
+	height:100%;
+	border:none;
+	padding:0px;
+	background:#F5F5F5;
+	border:none;
+	outline:none;
+	float:left;
+	cursor:pointer;
+}
+
+#input-box input{
+	width:365px;
+	float:left;
+	height:24px;
+	border:none;
+	padding:10px;
+	outline:none;
+}
+
+#input-box .search-btn{
+	cursor: pointer;
+	float:right;
+	width:50px;
+	height:100%;
+	background:#B11E22;
+	border:none;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.search-btn i{
+	color:white;
+}
+
+/* 搜索分类 */
+.xianshi{
+	
+	text-align: center;
+	height: 45px;
+	line-height: 45px;
+	padding: 0;
+	overflow: hidden;
+}
+.searchList{
+	margin-top: 8px;
+	padding: 0;
+	overflow: auto;
+}
+.xianshi>p{
+	/* display: none; */
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+
+}
+.xianshi>p:hover{
+	background-color:rgb(163, 163, 163);
+}
+
+#right-area{
+	margin-top:40px;
+	float:right;
+	width:200px;
+}
+
+#right-area li{
+	font-size:15px;
+	padding:0 10px;
+	float:left;
+}
+
+.dropdown-mid{
+
+position:relative;}
+
+.dropdown-menu-mid{
+	width:295px;
+	padding-left:5px;
+	height:0; opacity:0; overflow:hidden;
+	background:#fff;
+	list-style:none; 
+	border:1px solid #ddd;
+	border-top:1px solid #B11E22;
+	box-shadow:2px 2px 2px #ddd;
+	margin-top:5px; 
+	position:absolute;
+	top:15px;
+	z-index:2;
+	transition:all .5s linear;
+}
+
+.dropdown-menu-mid>li{
+	height:120px;
+	border-bottom:1px solid #ddd;
+	float:left;
+}
+.dropdown-menu-mid img{
+	float:left;
+	width:80px;
+	margin-top:10px;
+	height:100px;
+}
+
+.dropdown-menu-mid .cart-count{
+	display:inline-block;
+	margin-top:30px;
+	width:85px;
+	margin-left:20px;
+	height:30px;
+	border:2px solid #ddd;
+}
+
+.cart-count input{
+	width:25px;
+	height:25px;
+	text-align:center;
+	outline:0;
+	border:0;
+}
+
+.cart-count .addbtn,.cart-count .minusbtn{
+	display:inline-block;
+	width:25px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+}
+
+.dropdown-menu-mid .sprice{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	line-height:100px;
+	color:#B11E22;
+	padding-left:30px;
+}
+
+.bottom-button{
+	width:280px;
+	height:30px;
+	text-align:right;
+	line-height:30px;
+	float:left;
+}
+
+.bottom-button .total-money{
+	color:#B11E22;
+	font-weight:bold;
+}
+
+/*导航*/
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.fixed_nav{
+    background: #F5F5F5;
+    position:fixed;
+    z-index: 6;
+    top:0;
+    left:0;
+    right: 0;
+    width: 100%;
+    height:60px;
+    background: #F5F5F5;
+    transition: all 0.1s;
+    padding: 5px;
+    margin:0 auto;
+
+}
+#nav-area{
+	width:1170px;
+	height:70px;
+	margin:30px auto 0px;
+	background:#F4f8f9;
+}
+
+.nav li{
+	float:left;
+	width:100px;
+	font-size:15px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+}
+
+.dropdown-big{
+	float:left; 
+	width:270px; 
+	height:70px;
+}
+
+.dropdown-big a{
+	text-decoration:none; 
+	color:#000;
+	display:inline-block;
+}
+
+.dropdown-big>a{ 
+	display:inline-block;
+	width:270px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	font-size:16px;
+	background:#B11E22;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+	color:#fff;
+}
+		
+.dropdown-menu-big{
+	width:268px;
+	height:0; opacity:0; overflow:hidden;
+	list-style:none; 
+	border:1px solid #ddd;
+	margin:0; 
+	position:relative;
+	z-index:2;
+	transition:all .5s linear;
+}
+		
+.dropdown-menu-big li{
+	width:268px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	background:#fff;
+	color:#000;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.dropdown-menu-big li:hover{
+	background:#ddd;
+}
